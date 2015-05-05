@@ -38,7 +38,7 @@ body{
 }
 
 .lk-content {
-    text-align: center;
+
 }
 
 
@@ -51,6 +51,22 @@ body{
 header {
     height: config(header);
 }
+
+
+
+
+/*------------------------------------*\
+                ¡CONTENT
+\*------------------------------------*/
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
 
 
 

@@ -233,14 +233,20 @@ body {
   margin-bottom: -100px;
   position: relative; }
 
-.lk-content {
-  text-align: center; }
-
 /*------------------------------------*\
                 ¡HEADER
 \*------------------------------------*/
 header {
   height: 100px; }
+
+/*------------------------------------*\
+                ¡CONTENT
+\*------------------------------------*/
+h1 {
+  text-align: center; }
+
+form {
+  text-align: center; }
 
 /*------------------------------------*\
                 ¡FOOTER
