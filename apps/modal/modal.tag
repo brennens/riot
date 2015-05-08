@@ -12,8 +12,7 @@
                 <p>{ opts.content }</p>
             </div>
             <div class="lk-modal-footer">
-                <button class="btn btn-default">{ opts.actionbutton }</button>
-                <button class="btn btn-default">Submit</button>
+                <button class="btn btn-default" onclick={ closeModal }>{ opts.actionbutton }</button>
             </div>
         </div>
     </div>
