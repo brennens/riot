@@ -1,5 +1,1 @@
-riot.mount('test', {
-	title: 'Things of Things'
-});
-
-riot.mount('list');
+riot.mount('*');
