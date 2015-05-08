@@ -13,16 +13,33 @@
 		<div class="lk-content">
 			<div class="container-fluid">
 				<div class="row">
-					<test class="col-lg-6 col-lg-offset-3"></test>
+					<test class="col-lg-6 col-lg-offset-3" title="Things of Things"></test>
+				</div>
+				<div class="row">
+					<modal 
+						showbutton="First Modal"
+						title="First modal"
+						content="This is some cool content for the first modal"
+						actionbutton="Cancel"
+						>
+					</modal>
+					<modal 
+						showbutton="Second Modal"
+						title="Second modal"
+						content="This is some cool content for the second modal"
+						actionbutton="Cancel"
+						>
+					</modal>
 				</div>
 			</div>
 		</div>
 		<div class="lk-push"></div>
 	</div>
 	<footer></footer>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/riot/2.0.15/riot+compiler.min.js"></script>
-	<script src="/apps/axios.js"></script>
-	<script src="/apps/tags.tag" type="riot/tag"></script>
+	<script src="/js/riot.js"></script>
+	<script src="/js/axios.js"></script>
+	<script src="/apps/star-wars/tags.tag" type="riot/tag"></script>
+	<script src="/apps/modal/modal.tag" type="riot/tag"></script>
 	<script src="/apps/apps.js"></script>
 </body>
 </html>

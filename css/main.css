@@ -249,6 +249,72 @@ form {
   text-align: center; }
 
 /*------------------------------------*\
+                ¡MODAL
+\*------------------------------------*/
+.lk-modal-wrap:before {
+  content: "";
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10; }
+.lk-modal-wrap .lk-modal {
+  background: #FFF;
+  max-width: 400px;
+  border: solid 1px;
+  border-radius: 4px;
+  margin-left: -200px;
+  position: fixed;
+  left: 50%;
+  top: -100%;
+  z-index: 11;
+  width: 360px;
+  -webkit-transform: translate(0, -500%);
+  -moz-transform: translate(0, -500%);
+  -ms-transform: translate(0, -500%);
+  -o-transform: translate(0, -500%);
+  transform: translate(0, -500%);
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+  .lk-modal-wrap .lk-modal .lk-modal-header {
+    padding: 10px;
+    border-bottom: solid 1px #CCC; }
+    .lk-modal-wrap .lk-modal .lk-modal-header h3 {
+      float: left;
+      background: none;
+      margin: 0;
+      padding: 0; }
+    .lk-modal-wrap .lk-modal .lk-modal-header span {
+      float: right;
+      cursor: pointer; }
+  .lk-modal-wrap .lk-modal .lk-modal-content {
+    padding: 10px; }
+  .lk-modal-wrap .lk-modal .lk-modal-footer {
+    padding: 10px;
+    border-top: solid 1px #CCC; }
+    .lk-modal-wrap .lk-modal .lk-modal-footer .lk-btn {
+      cursor: pointer;
+      margin: 0; }
+    .lk-modal-wrap .lk-modal .lk-modal-footer .lk-btn:first-of-type {
+      float: left; }
+
+.lk-modal-wrap.is-visible:before {
+  display: block; }
+.lk-modal-wrap.is-visible .lk-modal {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  top: 20%; }
+
+/*------------------------------------*\
                 ¡FOOTER
 \*------------------------------------*/
 .lk-push,
